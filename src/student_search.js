@@ -25,7 +25,7 @@ function Student_search() {
                 <p class="search__subtitle">Номер карточки: 201844</p>
                 <p class="search__subtitle">Дата рождения: 27.03.2001</p>
                 <p class="search__subtitle">Номер приказа о предоставлении общежития: 8753777</p>
-                <p class="search__subtitle">Номер приказа о зачислении: 911501</p>
+                <p class="search__subtitle">Номер приказа об отчислении: 911501</p>
                 <p class="search__subtitle">Дата зачисления: 07.07.2018</p>
                 <p class="search__subtitle">Место рождения: г. Мичуринск</p>
                 <p class="search__subtitle">Адрес проживания: ул. Юности, 11, Зеленоград, Москва</p>
