@@ -1,0 +1,11 @@
+.search__input {
+    outline:none;
+    width: 550px;
+    outline-offset: 0;
+    border-width: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+    padding: 0 0 0 0;
+    text-align: left;
+    height: 30px;
+}

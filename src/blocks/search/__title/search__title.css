@@ -1,0 +1,11 @@
+.search__title {
+    width: 358px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.search__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #444444;
+}

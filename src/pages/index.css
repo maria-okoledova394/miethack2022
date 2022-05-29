@@ -1,0 +1,36 @@
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__button/lead__button.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+
+@import url(../blocks/search/search.css);
+@import url(../blocks/search/__field/search__field.css);
+@import url(../blocks/search/__container/search__container.css);
+@import url(../blocks/popup/_function/popup_function_add.css);
+
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__cell/table__cell.css);
+
+@import url(../blocks/housing/housing.css);
+@import url(../blocks/housing/__title/housing__title.css);
+
+@import url(../blocks/search/search.css);
+@import url(../blocks/search/__button/search__button.css);
+@import url(../blocks/search/__container/search__container.css);
+@import url(../blocks/search/__form/search__form.css);
+@import url(../blocks/search/__input/search__input.css);
+@import url(../blocks/search/__title/search__title.css);
+@import url(../blocks/search/__main-title/search__main-title.css);
+@import url(../blocks/search/__flex/search__flex.css);
+
+
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/student/__photo/student__photo.css);
