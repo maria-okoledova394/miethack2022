@@ -2,9 +2,19 @@ import logo from './logo.svg';
 import './App.css';
 import StudGorod from "./images/StudGorod.svg"
 import EditForm from './form';
+import Housing from './housing';
+import Floor from './floor';
+import Room from './room';
+import Student from './student';
+import Student_search from './student_search';
+import Student_room from './studentroom';
+import { Route, Switch, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
 
-function App() {
+function App_main() {
   return (
+    <Switch>
+    <Route path="/" exact>
     <body>
       <div className="page">
           <main>
@@ -25,32 +35,32 @@ function App() {
 
                 <section className="housing">
                   <h2 className="housing__title">Выберите корпус</h2>
-                  <a href="./housing.html" className="link" target="_self">
+                  <Link to='Housing' className="link" target="_self">
                     <div className="table__cell_centre">
                       <h4 className="table__heading_centre">Корпус 7</h4>
                     </div>
-                  </a>
+                  </Link>
                   <div className="table">
-                    <a className="link" target="_blank" href="/housing.html">
+                  <Link to='Housing' className="link" target="_self">
                       <div className="table__cell_centre">
                         <h4 className="table__heading_centre">Корпус 9</h4>
                       </div>
-                    </a>
-                    <a className="link" target="_blank" href="/housing.html">
+                    </Link>
+                    <Link to='Housing' className="link" target="_self">
                       <div className="table__cell_centre">
                         <h4 className="table__heading_centre">Корпус 11</h4>
                       </div>
-                    </a>
-                    <a className="link" target="_blank" href="/housing.html">
+                    </Link>
+                    <Link to='Housing' className="link" target="_self">
                       <div className="table__cell_centre">
                         <h4 className="table__heading_centre">Корпус 13</h4>
                       </div>
-                    </a>
-                    <a className="link" target="_blank" href="/housing.html">
+                    </Link>
+                    <Link to='Housing' className="link" target="_self">
                       <div className="table__cell_centre">
                         <h4 className="table__heading_centre">Корпус 15</h4>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </section>
 
@@ -58,7 +68,27 @@ function App() {
           </main>
       </div>
     </body>
+    </Route>
+    <Route path="/housing">
+      <Housing />
+    </Route>
+    <Route path="/floor">
+      <Floor />
+    </Route>
+    <Route path="/room">
+      <Room />
+    </Route>
+    <Route path="/student">
+      <Student />
+    </Route>
+    <Route path="/studentsearch">
+      <Student_search />
+    </Route>
+    <Route path="/studentroom">
+      <Student_room />
+    </Route>
+  </Switch>
   );
 }
 
-export default App;
+export default App_main;
